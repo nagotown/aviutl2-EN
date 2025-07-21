@@ -165,16 +165,16 @@
 瞬間移動=Teleportation
 
 ; Item Settings
-中心X=Center X
-中心Y=Center Y
-中心Z=Center Z
+中心X=Anchor X
+中心Y=Anchor Y
+中心Z=Anchor Z
 X軸回転=Rotate X
 Y軸回転=Rotate Y
 Z軸回転=Rotate Z
 目標X=Target X
 目標Y=Target Y
 目標Z=Target Z
-縦横比=Aspect
+縦横比=Aspect Ratio
 幅=Width
 横幅=Width
 高さ=Height
@@ -539,6 +539,12 @@ Z軸回転=Rotate Z
 スワップ=Swap
 縮小回転=Reduce Rotate
 キューブ回転=Cube Rotate
+; Extras (Originally untranslated)
+上下反転=Horizontal Flip
+左右反転=Vertical Flip
+輝度反転=Color Invert
+色相反転=Hue Invert
+透明度反転=Transparency Invert
 
 [Menu]
 ; Window and popup menu names
