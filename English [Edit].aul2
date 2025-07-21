@@ -1,9 +1,9 @@
-; 言語の定義
-; UTF-8で記述する
-; ProgramData\aviutl2\Languageに配置すると言語の設定に追加される
+; Defines Language
+; Write in UTF-8
+; Place in ProgramData\aviutl2\Language to add to Language Settings
 
 [Effect]
-; オブジェクト、フィルタ効果の名称
+; Object/Filter/Effect Names
 動画ファイル=Video File
 画像ファイル=Image File
 音声ファイル=Audio File
@@ -79,7 +79,7 @@
 モノラル化=Audio Mono
 音量調整=Volume
 
-; スクリプトの名称
+; Script Names
 震える=Tremble
 振り子=Pendulum
 弾む=Bound
@@ -136,7 +136,8 @@
 目標中心回転=Rotate Base Target
 目標サイズ固定視野角=View Angle Base Target
 
-; ラベルの名称 ※ポップアップメニューのみ変換される
+; Label Names
+; * Only popup menu names are translated
 基本効果=Basic Effect
 音声効果=Audio Effect
 変形=Transform
@@ -153,7 +154,7 @@
 画面効果=Screen Effect
 オブジェクト制御=Object Control
 
-; 移動モード
+; Movement Mode
 移動無し=No Move
 再生範囲=Play Range
 直線移動=Linear
@@ -163,7 +164,7 @@
 ランダム移動=Random
 瞬間移動=Teleportation
 
-; 設定項目
+; Item Settings
 中心X=Center X
 中心Y=Center Y
 中心Z=Center Z
@@ -540,7 +541,7 @@ Z軸回転=Rotate Z
 キューブ回転=Cube Rotate
 
 [Menu]
-; ウィンドウメニュー、ポップアップメニューの項目名
+; Window and popup menu names
 ファイル=File
 プロジェクトを新規作成=New
 プロジェクトを開く=Open
@@ -754,7 +755,7 @@ PNGファイル(透過無し)=.png File (NoTransparent)
 中間点追加・分割を現在のフレームで行う=Add Object Point and Split by Cursor Frame
 
 [Message]
-; ツールチップ、メッセージボックス等のメッセージ
+; Tooltips, message boxes, and other dialogs
 ファイル出力中=outputting file
 パレットを切替=change palette
 画面上から色を取得=get color from screen
@@ -824,7 +825,7 @@ PNGファイル(透過無し)=.png File (NoTransparent)
 サイズの変更=change size
 
 [Dialog]
-; ダイアログ内の名称
+; Dialog box names
 シーンを作成=New Scene
 シーンの設定=Scene
 名前=Name
