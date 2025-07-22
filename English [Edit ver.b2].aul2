@@ -72,7 +72,7 @@
 カメラ制御オプション=Camera Options
 座標=Position
 拡大率=Zoom
-透明度=Transparent
+透明度=Transparency
 回転=Rotate
 領域拡張=Extend Area
 音量フェード=Fade (Audio)
@@ -136,8 +136,7 @@
 目標中心回転=Rotate Base Target
 目標サイズ固定視野角=View Angle Base Target
 
-; Label Names
-; * Only popup menu names are translated
+; Label Names * Only popup menu names are translated
 基本効果=Basic Effect
 音声効果=Audio Effect
 変形=Transform
@@ -545,6 +544,7 @@ Z軸回転=Rotate Z
 輝度反転=Color Invert
 色相反転=Hue Invert
 透明度反転=Transparency Invert
+速さ=Velocity
 
 [Menu]
 ; Window and popup menu names
@@ -665,7 +665,7 @@ Z軸回転=Rotate Z
 制御点を追加=Add Control Point
 制御点を削除=Delete Control Point
 中間点の位置を表示=Show Keyframe Positions
-時間制御の設定対象へ変更した時にウィンドウを表示=Open Time Control Window When Changing Item Motion Setting to Time
+時間制御の設定対象へ変更した時にウィンドウを表示=Open Window When Changing Item Motion Setting to Time
 色変更(&C)=Control Color (&C)
 サイズ変更(&S)=Control Size (&S)
 フォント変更(&F)=Control Font (&F)
@@ -673,7 +673,7 @@ Z軸回転=Rotate Z
 表示ウェイト(&W)=Control Wait (&W)
 表示クリア(&E)=Control Erase (&E)
 座標指定(&P)=Control Position (&P)
-テキストオブジェクトのフォーカス時にウィンドウを表示=Open Window When Focus Text Object
+テキストオブジェクトのフォーカス時にウィンドウを表示=Open Window When Focused on Text Object
 ブックマークに追加=Add Bookmark
 ブックマークから削除=Delete Bookmark
 メディアオブジェクトを表示する=Show Media Object
@@ -708,11 +708,11 @@ Z軸回転=Rotate Z
 スライダーの値の位置を表示=Show Slider Value Position
 スライド時にマウスを移動しない=Disable Mouse Movement on Value Change
 ウィンドウ配置=Window Layout
-左側エリア=Left Group
-右側エリア=Right Group
-上側エリア=Top Group
-下側エリア=Botton Group
-中央エリア=Center Group
+左側エリア=Left Area
+右側エリア=Right Area
+上側エリア=Top Area
+下側エリア=Bottom Area
+中央エリア=Center Area
 ウィンドウの移動=Move Window
 先頭に移動=Move to Top
 上に移動=Move Up
