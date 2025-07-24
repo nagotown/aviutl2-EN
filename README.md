@@ -48,3 +48,4 @@ For that, you'll also need to download a plugin.
 
 - [AviUtl Room](http://spring-fragrance.mints.ne.jp/aviutl/) (Official Homepage)
 - [@wiki](https://w.atwiki.jp/aviutlexedit2/) (Japanese Wiki)
+- [AviUtl2 Plugin/Script Directory](https://lineside0418.github.io/AviUtl2_Plugins)
