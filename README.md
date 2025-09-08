@@ -12,7 +12,7 @@ Edit of the English translation of AviUtl2 for better readability &amp; clarity
 > [!NOTE]
 > File name may differ depending on versioning.
 
-## FAQ
+## FAQ (General Software Usage)
 
 ### Why can I import .JPGs, but not .JPEGs?
 
