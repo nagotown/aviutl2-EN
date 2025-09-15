@@ -37,6 +37,7 @@ For that, you'll also need to download a plugin.
 #### Hardware Encoders
 
 - [NVEnc](https://github.com/rigaya/NVEnc) (NVIDIA GPU, Video)
+- [VCEEnc](https://github.com/rigaya/VCEEnc) (AMD GPU, Video)
 - [QSVEnc](https://github.com/rigaya/QSVEnc) (Intel CPU, Video)
 
 #### Software Encoders
