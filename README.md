@@ -11,6 +11,9 @@ Edit of the English translation of AviUtl2 for better readability &amp; clarity
 
 > [!NOTE]
 > File name may differ depending on versioning.
+> 
+> Some text may not fit in the boxes, so please download `style.conf` and place it in `C:\ProgramData\aviutl2`.
+> It changes the wideness of the buttons with text in the `Object Settings` window from `96` to `120`.
 
 ## FAQ (General Software Usage)
 
