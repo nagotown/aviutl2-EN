@@ -11,9 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+      - name: Zip Files
+        run: zip -r ${{ github.event.repository.name }}_${{ github.ref }}.zip *.aul2 style.conf
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          files: |
-            *.aul2
-            style.conf
+          files: ${{ github.event.repository.name }}_${{ github.ref }}.zip
