@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
       - name: Zip Files
-        run: zip -r ${{ github.event.repository.name }}_${{ github.ref_name }}.zip *.aul2 style.conf
+        run: zip -r ${{ github.event.repository.name }}_${{ github.ref_name }}.zip *.aul2 style.conf README.md
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
