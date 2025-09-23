@@ -1072,6 +1072,7 @@ VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
 決定ボタンが無い時のみ=When OK button is absent
 ダイアログをEnterキーで決定=Enter Key to Confirm Dialog
 シーンを複製=Duplicate Scene
+ブックマークの追加=Add Bookmark
 ;OK=OK
 ;Cancel=Cancel
 
