@@ -1082,6 +1082,9 @@ Alt+左クリックドラックで右クリックドラック操作=Alt+Left Cli
 ;OK=OK
 ;Cancel=Cancel
 
+; Extras (Originally untranslated)
+ブックマークの追加=Add Bookmark
+
 [Name]
 ; Other names
 ;Root=Root
