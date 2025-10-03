@@ -580,7 +580,7 @@ Z軸回転=Rotate Z
 ファイル=File
 プロジェクトを新規作成=New Project
 プロジェクトを開く=Open Project
-最近使ったプロジェクト=Recent Project
+最近使ったプロジェクト=Recent
 バックアップしたプロジェクト=Project Backups
 プロジェクトを保存=Save Project
 プロジェクトを別名で保存=Save As Project
@@ -641,8 +641,6 @@ Z軸回転=Rotate Z
 メディアエクスプローラー:2=Media Explorer:2
 メディアエクスプローラー:3=Media Explorer:3
 メディアエクスプローラー:4=Media Explorer:4
-メディアエクスプローラー:5=Media Explorer:5
-メディアエクスプローラー:6=Media Explorer:6
 グリッド(BPM)の表示=Show Grid (BPM)
 グリッド(カメラ制御)の表示=Show Grid (Camera Control)
 編集視点(カメラ制御)表示=Edit View (Camera Control)
@@ -857,6 +855,8 @@ YUVレンジ=YUV Color Range
 WindowSize=Window Size
 停止時にカーソル位置へ戻る=Return to Cursor Frame on Pause
 AviUtlのお部屋=AviUtl Room (Japanese Homepage)
+メディアエクスプローラー:5=Media Explorer:5
+メディアエクスプローラー:6=Media Explorer:6
 
 [Message]
 ; Tooltips, message boxes, and other dialogs
@@ -978,7 +978,7 @@ YUVの設定=YUV Settings
 入力プラグインの設定=Input Plugin Settings
 プラグイン(優先順位)=Plugin (Priority)
 拡張子=File Extension
-言語の設定=Language Settings
+言語の設定=Language Setting
 言語=Language
 ログの設定=Log Settings
 ログウィンドウの表示対象レベル=View Log Level
