@@ -149,6 +149,32 @@
 目標中心回転=Rotate Base Target
 目標サイズ固定視野角=View Angle Base Target
 
+; Third-Party Scripts
+
+; Author: sigma_axis (https://github.com/sigma-axis/)
+; Anytime you see "σ", it's basically the tag or watermark associated with the developer/programmer, sigma-axis.
+
+; GroundShadow2_S - https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S
+GroundShadow2_S=Ground Shadow 2 (Script)
+
+; Penrose Tile - https://github.com/sigma-axis/aviutl2_script_PenroseTile_S
+ペンローズタイル ぼかしσ@PenroseTile_S=Penrose Tile Blurσ @ Penrose Tile (Script)
+ペンローズタイル モザイクσ@PenroseTile_S=Penrose Tile Mosaicσ @ Penrose Tile (Script)
+ペンローズタイル レンズσ@PenroseTile_S=Penrose Tile Lensσ @ Penrose Tile (Script)
+ペンローズタイルσ=Penrose Tileσ
+ペンローズタイル モザイクフェードσ=Penrose Tile Mosaic Fadeσ (Scene Change)
+
+; PageRoll_S - https://github.com/sigma-axis/aviutl2_script_PageRoll_S
+PageRoll_S=Page Roll (Script)
+PageRoll_S(シーンチェンジ)=Page Roll (Script, Scene Change)
+
+; PixelSnap_S - https://github.com/sigma-axis/aviutl2_script_PixelSnap_S
+PixelSnap_S=Pixel Snap (Script)
+
+; Resize_S - https://github.com/sigma-axis/aviutl2_script_Resize_S
+リサイズσ@Resize_S=Resizeσ @ Resize (Script)
+ボックスリサイズσ@Resize_S=Box Resizeσ @ Resize (Script)
+
 ; Label Names * Only popup menu names are translated
 基本効果=Basic Effect
 音声効果=Audio Effect
@@ -446,6 +472,7 @@ Z軸回転=Rotate Z
 ボケ=Blur
 光量=Light Level
 境界=Border Blur
+ObjectMotionBlur_LK=Object Motion Blur
 色ずれ量=Color Shift
 縦横比補正=Adjust Aspect
 水平境界ぼかし=Horizontal Border Blur
@@ -787,6 +814,7 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 言語ファイルフォルダ=Language File Folder
 オブジェクトを複製=Duplicate Object
 中間点追加・分割を現在のフレームで行う=Add Keyframe and Split at Cursor Position
+音声波形を絶対値で表示=Display Audio Waveform at Absolute Values
 カーソル位置に中間点を追加=Add Keyframe at Cursor Position
 オブジェクト選択=Select Object
 全てのオブジェクトを選択=Select All Objects
@@ -850,6 +878,12 @@ YUVレンジ=YUV Color Range
 選択オブジェクトの追従=Follow Selected Object
 中間点の時間を表示=Show Keyframe Time
 スクロールバーを上側に表示=Show Scrollbar on Top
+
+; Third-Party Export Plugins
+
+; al2_wav_saver - https://github.com/hebiiro/al2_wav_saver
+WAVファイル出力 (32bit float)=WAV File Output (32-bit float)
+WAVファイル出力 (16bit short)=WAV File Output (16-bit short)
 
 ; Extras (Originally untranslated)
 WindowSize=Window Size
