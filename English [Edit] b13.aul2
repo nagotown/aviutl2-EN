@@ -65,6 +65,7 @@
 シーンチェンジ=Scene Change
 振動=Quake
 スクリプト制御=Script Control
+斜めブラインド=Diagonal Blinds
 並行光源(カメラ制御)=Light (Camera Control)
 環境光(カメラ制御)=Ambient Light (Camera Control)
 ライトブルーム(カメラ制御)=Light Bloom (Camera Control)
@@ -148,6 +149,33 @@
 手ぶれ=Camera Shake
 目標中心回転=Rotate Base Target
 目標サイズ固定視野角=View Angle Base Target
+
+; Third-Party Scripts
+
+; Author: sigma_axis (https://github.com/sigma-axis/)
+; Anytime you see "σ", it's basically the tag or watermark associated with the developer/programmer, sigma-axis.
+
+; GroundShadow2_S - https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S
+GroundShadow2_S=Ground Shadow 2 (Script)
+
+; Penrose Tile - https://github.com/sigma-axis/aviutl2_script_PenroseTile_S
+ペンローズタイル ぼかしσ@PenroseTile_S=Penrose Tile Blurσ @ Penrose Tile (Script)
+ペンローズタイル モザイクσ@PenroseTile_S=Penrose Tile Mosaicσ @ Penrose Tile (Script)
+ペンローズタイル レンズσ@PenroseTile_S=Penrose Tile Lensσ @ Penrose Tile (Script)
+ペンローズタイルσ=Penrose Tileσ
+ペンローズタイル モザイクフェードσ=Penrose Tile Mosaic Fadeσ (Scene Change)
+
+; PageRoll_S - https://github.com/sigma-axis/aviutl2_script_PageRoll_S
+PageRoll_S=Page Roll (Script)
+PageRoll_S(シーンチェンジ)=Page Roll (Script, Scene Change)
+
+; PixelSnap_S - https://github.com/sigma-axis/aviutl2_script_PixelSnap_S
+PixelSnap_S=Pixel Snap (Script)
+
+; Resize_S - https://github.com/sigma-axis/aviutl2_script_Resize_S
+リサイズσ@Resize_S=Resizeσ @ Resize (Script)
+ボックスリサイズσ@Resize_S=Box Resizeσ @ Resize (Script)
+
 
 ; Label Names * Only popup menu names are translated
 基本効果=Basic Effect
@@ -446,6 +474,7 @@ Z軸回転=Rotate Z
 ボケ=Blur
 光量=Light Level
 境界=Border Blur
+ObjectMotionBlur_LK=Object Motion Blur
 色ずれ量=Color Shift
 縦横比補正=Adjust Aspect
 水平境界ぼかし=Horizontal Border Blur
@@ -578,15 +607,15 @@ Z軸回転=Rotate Z
 [Menu]
 ; Window and popup menu names
 ファイル=File
-プロジェクトを新規作成=New Project
-プロジェクトを開く=Open Project
+プロジェクトを新規作成=New
+プロジェクトを開く=Open
 最近使ったプロジェクト=Recent
-バックアップしたプロジェクト=Project Backups
-プロジェクトを保存=Save Project
-プロジェクトを別名で保存=Save As Project
+バックアップしたプロジェクト=Backup
+プロジェクトを保存=Save
+プロジェクトを別名で保存=Save As
 ファイル出力=Export
-プロジェクトを保存して終了=Save and Exit
-終了=Exit
+プロジェクトを保存して終了=Save and Quit
+終了=Quit
 編集=Edit
 移動=Move
 次のフレームに移動=Next Frame
@@ -636,11 +665,11 @@ Z軸回転=Rotate Z
 ログ表示=Log Viewer
 ログ=Log
 プレビュー編集=Preview Edit
-メディアエクスプローラー=Media Explorer
-メディアエクスプローラー:1=Media Explorer:1
-メディアエクスプローラー:2=Media Explorer:2
-メディアエクスプローラー:3=Media Explorer:3
-メディアエクスプローラー:4=Media Explorer:4
+メディアエクスプローラー=Media Explore
+メディアエクスプローラー:1=Media Explore:1
+メディアエクスプローラー:2=Media Explore:2
+メディアエクスプローラー:3=Media Explore:3
+メディアエクスプローラー:4=Media Explore:4
 グリッド(BPM)の表示=Show Grid (BPM)
 グリッド(カメラ制御)の表示=Show Grid (Camera Control)
 編集視点(カメラ制御)表示=Edit View (Camera Control)
@@ -659,7 +688,7 @@ Z軸回転=Rotate Z
 言語の設定=Language
 ログの設定=Logging
 ログをコピー=Copy Log
-その他=Misc
+その他=Etc.
 プラグイン情報=Plugin Info
 スクリプト情報=Script Info
 バージョン情報=Version Info
@@ -695,13 +724,13 @@ Z軸回転=Rotate Z
 制御点を削除=Delete Control Point
 中間点の位置を表示=Show Keyframe Positions
 時間制御の設定対象へ変更した時にウィンドウを表示=Open Window When Changing Item Motion Setting to Time
-色変更(&C)=Control &Color
-サイズ変更(&S)=Control &Size
-フォント変更(&F)=Control &Font
-表示速度変更(&R)=Cont&rol Speed
-表示ウェイト(&W)=Control &Wait
-表示クリア(&E)=&Erase Control
-座標指定(&P)=Control &Position
+色変更(&C)=Control Color (&C)
+サイズ変更(&S)=Control Size (&S)
+フォント変更(&F)=Control Font (&F)
+表示速度変更(&R)=Control Speed (&R)
+表示ウェイト(&W)=Control Wait (&W)
+表示クリア(&E)=Control Erase (&E)
+座標指定(&P)=Control Position (&P)
 テキストオブジェクトのフォーカス時にウィンドウを表示=Open Window When Focused on Text Object
 ブックマークに追加=Add Bookmark
 ブックマークから削除=Delete Bookmark
@@ -760,11 +789,11 @@ Z軸回転=Rotate Z
 減速移動=Ease Out
 加減速移動=Ease In-Out
 現在の設定でプリセットを作成=Create Preset with Current Settings
-AVIファイル出力=Export AVI File
-PNGファイル出力=Export PNG File
-JPEGファイル出力=Export JPEG File
-PNGファイル(透過付き)=PNG File (Transparent)
-PNGファイル(透過無し)=PNG File (No Transparency)
+AVIファイル出力=Export .AVI File
+PNGファイル出力=Export .PNG File
+JPEGファイル出力=Export .JPEG File
+PNGファイル(透過付き)=.PNG File (Transparent)
+PNGファイル(透過無し)=.PNG File (No Transparency)
 ショートカットキーを標準に戻す=Reset Shortcut Key to Default
 全てのショートカットキーを標準に戻す=Reset All Shortcut Keys to Default
 オブジェクトの表示・非表示=Show/Hide Object
@@ -787,6 +816,7 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 言語ファイルフォルダ=Language File Folder
 オブジェクトを複製=Duplicate Object
 中間点追加・分割を現在のフレームで行う=Add Keyframe and Split at Cursor Position
+音声波形を絶対値で表示=Display Audio Waveform at Absolute Position
 カーソル位置に中間点を追加=Add Keyframe at Cursor Position
 オブジェクト選択=Select Object
 全てのオブジェクトを選択=Select All Objects
@@ -831,7 +861,7 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 以降をコピー=Copy After
 ウェブサイト=Website
 音量レベルメーターの表示=Show Volume Level Meter
-音量レベルメーターの設定=Volume Level Meter Settings
+音量レベルメーターの設定=Volume Level Meter Setting
 中間点を均等配置=Space Evenly Object Point
 選択区間の長さを変更=Change Section Length
 再生中のみ音量レベルメーターを反映=Enable Level Meter Only During Playback
@@ -851,12 +881,18 @@ YUVレンジ=YUV Color Range
 中間点の時間を表示=Show Keyframe Time
 スクロールバーを上側に表示=Show Scrollbar on Top
 
+; Third-Party Export Plugins
+; al2_wav_saver - https://github.com/hebiiro/al2_wav_saver
+WAVファイル出力 (32bit float)=WAV File Output (32-bit float)
+WAVファイル出力 (16bit short)=WAV File Output (16-bit short)
+
+
 ; Extras (Originally untranslated)
 WindowSize=Window Size
 停止時にカーソル位置へ戻る=Return to Cursor Frame on Pause
 AviUtlのお部屋=AviUtl Room (Japanese Homepage)
-メディアエクスプローラー:5=Media Explorer:5
-メディアエクスプローラー:6=Media Explorer:6
+メディアエクスプローラー:5=Media Explore:5
+メディアエクスプローラー:6=Media Explore:6
 
 [Message]
 ; Tooltips, message boxes, and other dialogs
@@ -935,7 +971,7 @@ AviUtlのお部屋=AviUtl Room (Japanese Homepage)
 プレビュー一時停止=Pause preview
 テキストを追加=Add text
 ファイルの読み込みに失敗しました=Failed to load file.
-YUVの設定=YUV Settings
+YUVの設定=YUV Setting
 フォーマットが正しくありません=Invalid format
 ファイル・シーンから選択=Select file/scene
 ファイルから選択=Select file
@@ -944,7 +980,7 @@ YUVの設定=YUV Settings
 
 [Dialog]
 ; Dialog box names
-シーンを作成=Create Scene
+シーンを作成=New Scene
 シーンの設定=Scene Settings
 名前=Name
 解像度=Resolution
@@ -1011,10 +1047,10 @@ OutputDebugStringの出力対象レベル=Output Debug String Log Level
 設定=Settings
 種別=Type
 設定値=Value
-AVIファイル出力=Export AVI File
-PNGファイル出力=Export PNG File
-JPEGファイル出力=Export JPEG File
-JPEG品質=JPEG Quality
+AVIファイル出力=Export .AVI File
+PNGファイル出力=Export .PNG File
+JPEGファイル出力=Export .JPEG File
+JPEG品質=.JPEG Quality
 プラグイン情報=Plugin Info
 プラグイン=Plugin
 入力プラグイン=Input Plugin
@@ -1031,8 +1067,8 @@ JPEG品質=JPEG Quality
 アプリケーションの再起動後に反映されます=Reflected after application restart
 共通操作の設定=General Behavior Settings
 フレーム移動時の範囲選択=Select Range When Moving Frames
-する=Enable
-しない=Disable
+する=Do
+しない=Do Not
 Shiftキーを押しながらフレーム移動した時=Move frame while holding Shift Key
 カスタムフレーム移動A=Custom Frame Movement A
 カスタムフレーム移動B=Custom Frame Movement B
@@ -1066,7 +1102,7 @@ YUVレンジ=YUV Color Range
 任意X軸=X Margins
 任意Y軸=Y Margins
 連番ファイル出力=Export Incremented Files
-PNG透明色=PNG Transparency
+PNG透明色=.PNG Transparency
 あり=Yes
 なし=No
 モデルデータキャッシュサイズ [MB]=Model Data Cache Size [MB]
@@ -1084,6 +1120,7 @@ Alt+左クリックドラックで右クリックドラック操作=Alt+Left Cli
 
 ; Extras (Originally untranslated)
 ブックマークの追加=Add Bookmark
+
 
 [Name]
 ; Other names
