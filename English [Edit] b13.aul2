@@ -175,6 +175,11 @@ PixelSnap_S=Pixel Snap (Script)
 リサイズσ@Resize_S=Resizeσ @ Resize (Script)
 ボックスリサイズσ@Resize_S=Box Resizeσ @ Resize (Script)
 
+; Author: korarei (https://github.com/korarei)
+
+; @MotionBlur_K - https://github.com/korarei/AviUtl_MotionBlur_K_Script
+ObjectMotionBlur_LK=Object Motion Blur (by korarei)
+
 ; Label Names * Only popup menu names are translated
 基本効果=Basic Effect
 音声効果=Audio Effect
@@ -472,7 +477,6 @@ Z軸回転=Rotate Z
 ボケ=Blur
 光量=Light Level
 境界=Border Blur
-ObjectMotionBlur_LK=Object Motion Blur
 色ずれ量=Color Shift
 縦横比補正=Adjust Aspect
 水平境界ぼかし=Horizontal Border Blur
