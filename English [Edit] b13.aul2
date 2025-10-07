@@ -178,8 +178,8 @@ PixelSnap_S=Pixel Snap (Script)
 ; Author: korarei (https://github.com/korarei)
 ; _K is likely the author's watermark. Not sure how to translate this without going overboard on the naming scheme.
 
-; @ObjectMotionBlur_K - https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script
-ObjectMotionBlur_LK=Object Motion Blur_K
+; ObjectMotionBlur_K - https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script
+ObjectMotionBlur_LK=Object Motion Blur_LK
 
 ; Label Names * Only popup menu names are translated
 基本効果=Basic Effect
