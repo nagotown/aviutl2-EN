@@ -82,6 +82,7 @@
 オーディオバッファ=Audio Buffer
 モデルファイル=Model File
 枠線=Frame Line
+拡張色設定=Extended Color Settings
 
 ; Extras (Originally untranslated)
 逆光=Backlight
@@ -90,7 +91,6 @@
 右側=Right
 左側=Left
 パターン画像=Pattern Image
-拡張色設定=Extended Color Settings
 
 ; Script Names
 震える=Tremble
@@ -207,6 +207,9 @@ ObjectMotionBlur_LK=Object Motion Blur_LK
 補間移動(時間制御)=Interpolation (Time)
 ランダム移動=Random
 瞬間移動=Instant
+
+; Extras (Originally untranslated)
+移動量指定=Specify Move Distance
 
 ; Item Settings
 中心X=Center X
@@ -602,6 +605,7 @@ Z軸回転=Rotate Z
 枠色=Frame Color
 丸み=Round
 複数=Multiple
+パターン画像=Pattern Image
 
 ; Extras (Originally untranslated)
 超点X=Diffuse X
@@ -819,7 +823,6 @@ PNGファイル(透過無し)=PNG File (No Transparency)
 言語ファイルフォルダ=Language File Folder
 オブジェクトを複製=Duplicate Object
 中間点追加・分割を現在のフレームで行う=Add Keyframe and Split at Cursor Position
-音声波形を絶対値で表示=Display Audio Waveform at Absolute Values
 カーソル位置に中間点を追加=Add Keyframe at Cursor Position
 オブジェクト選択=Select Object
 全てのオブジェクトを選択=Select All Objects
@@ -896,6 +899,7 @@ WindowSize=Window Size
 AviUtlのお部屋=AviUtl Room (Japanese Homepage)
 メディアエクスプローラー:5=Media Explorer:5
 メディアエクスプローラー:6=Media Explorer:6
+音声波形を絶対値で表示=Display Audio Waveform at Absolute Values
 
 [Message]
 ; Tooltips, message boxes, and other dialogs
@@ -1118,6 +1122,7 @@ VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
 ダイアログをEnterキーで決定=Enter key to confirm dialog
 シーンを複製=Duplicate Scene
 Alt+左クリックドラックで右クリックドラック操作=Alt+Left Click Drag to Right Click Drag
+キーを入力してください=Please enter key
 ;OK=OK
 ;Cancel=Cancel
 
