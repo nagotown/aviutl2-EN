@@ -148,8 +148,17 @@
 手ぶれ=Camera Shake
 目標中心回転=Rotate Base Target
 目標サイズ固定視野角=View Angle Base Target
+三角括弧=Angled Brackets
 
 ; Third-Party Scripts
+
+; ANM_ssd (unfinished)
+減速@加減速TRA=Acceleration@TRA
+加速@加減速TRA=Deceleration@TRA
+加減速S@加減速TRA=Accelerate + Decelerate S@TRA
+しきい値ランダム移動=Threshold Random Movement
+ふらふら=Wobbling
+カクカク=Shaking
 
 ; Author: sigma_axis (https://github.com/sigma-axis/)
 ; Anytime you see "σ", it's basically the tag or watermark associated with the developer/programmer, sigma-axis.
@@ -558,6 +567,7 @@ Z軸回転=Rotate Z
 奇数=Odd
 偶数=Even
 二重化=Duplicate
+移動=Move
 移動変形=Move Transform
 前方に合成=Composite Front
 後方に合成=Composite Back
