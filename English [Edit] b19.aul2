@@ -148,8 +148,17 @@
 手ぶれ=Camera Shake
 目標中心回転=Rotate Base Target
 目標サイズ固定視野角=View Angle Base Target
+三角括弧=Angled Brackets
 
 ; Third-Party Scripts
+
+; ANM_ssd (unfinished)
+減速@加減速TRA=Acceleration@TRA
+加速@加減速TRA=Deceleration@TRA
+加減速S@加減速TRA=Accelerate + Decelerate S@TRA
+しきい値ランダム移動=Threshold Random Movement
+ふらふら=Wobbling
+カクカク=Shaking
 
 ; Author: sigma_axis (https://github.com/sigma-axis/)
 ; Anytime you see "σ", it's basically the tag or watermark associated with the developer/programmer, sigma-axis.
@@ -180,6 +189,41 @@ PixelSnap_S=Pixel Snap (Script)
 
 ; ObjectMotionBlur_K - https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script
 ObjectMotionBlur_LK=Object Motion Blur_LK
+
+; TootieJin's pjsekai-overlay-APPEND - https://github.com/TootieJin/pjsekai-overlay-APPEND
+設定@pjsekai-overlay-2=Root@pjsekai-overlay-2
+ライフ@pjsekai-overlay-2=Life@pjsekai-overlay-2
+スコア@pjsekai-overlay-2=Score@pjsekai-overlay-2
+コンボ@pjsekai-overlay-2=Combo@pjsekai-overlay-2
+判定@pjsekai-overlay-2=Judgement@pjsekai-overlay-2
+オート@pjsekai-overlay-2=Auto@pjsekai-overlay-2
+設定@pjsekai-overlay-2-v1=Root@pjsekai-overlay-2-v1
+スコア@pjsekai-overlay-2-v1=Score@pjsekai-overlay-2-v1
+コンボ@pjsekai-overlay-2-v1=Combo@pjsekai-overlay-2-v1
+判定@pjsekai-overlay-2-v1=Judgement@pjsekai-overlay-2-v1
+オート@pjsekai-overlay-2-v1=Auto@pjsekai-overlay-2-v1
+; Root
+PEDファイル=PED File
+オフセット=Offset
+フォント種類=Font Type
+キャッシュ=Cache
+透かし=Watermark
+; Life
+ライフ=LIFE
+過剰なライフバー=Overflow LIFE bar
+; Score
+最小桁数=Min Digit
+アニメーション採点=Animated Scoring
+; Combo
+APコンボ=AP Combo
+コンボタグ=Combo Tag
+n00コンボ効果=n00 Combo Burst
+最後のX桁を表示=Show the last X digit(s)
+; Judgement
+判定タイプ=Judge Type
+; Multi-use variable
+アニメーション速度=Animation Speed
+X軸境界= X-axis Boundary
 
 ; Label Names * Only popup menu names are translated
 基本効果=Basic Effect
@@ -523,6 +567,7 @@ Z軸回転=Rotate Z
 奇数=Odd
 偶数=Even
 二重化=Duplicate
+移動=Move
 移動変形=Move Transform
 前方に合成=Composite Front
 後方に合成=Composite Back
@@ -608,6 +653,7 @@ Z軸回転=Rotate Z
 パターン画像=Pattern Image
 影を付ける=Add Shadow
 影の範囲=Shadow Range
+自動スクロール=Auto Scroll
 
 ; Extras (Originally untranslated)
 超点X=Diffuse X
