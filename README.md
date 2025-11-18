@@ -48,6 +48,30 @@ For that, you'll also need to download a plugin.
 - [ffmpegOut](https://github.com/rigaya/ffmpegOut)
 - [al2_wav_saver](https://github.com/hebiiro/al2_wav_saver)
 
+### How do I install Third-Party scripts?
+
+#### Installing Thrid-Party scripts
+
+1. Open Aviutl2
+2. `Misc` > `Application Data` > `Script Folder`
+3. Restart Aviutl2
+
+Supported Scripts
+
+- [Satsuki](https://bowlroll.net/user/290)
+  - [ANM1](https://bowlroll.net/file/3777)
+  - [ANM_ssd](https://bowlroll.net/file/3777)
+- [sigma_axis](https://github.com/sigma-axis)
+  - [GroundShadow2_S](https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S)
+  - [PenroseTile_S](https://github.com/sigma-axis/aviutl2_script_PenroseTile_S)
+  - [PageRoll_S](https://github.com/sigma-axis/aviutl2_script_PageRoll_S)
+  - [PixelSnap_S](https://github.com/sigma-axis/aviutl2_script_PixelSnap_S)
+  - [Resize_S](https://github.com/sigma-axis/aviutl2_script_Resize_S)
+- [Korarei](https://github.com/korarei)
+  - [ObjectMotionBlur_K](https://github.com/korarei/AviUtl2_ObjectMotionBlur_LK_Script)
+- [TootieJin](https://github.com/TootieJin)
+  - [TootieJin's pjsekai-overlay-APPEND](https://github.com/TootieJin/pjsekai-overlay-APPEND)
+
 ## Links
 
 - [AviUtl Room](http://spring-fragrance.mints.ne.jp/aviutl/) (Official Homepage)
