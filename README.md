@@ -56,7 +56,7 @@ For that, you'll also need to download a plugin.
 2. `Misc` > `Application Data` > `Script Folder`
 3. Restart Aviutl2
 
-Supported Scripts
+#### Supported Scripts
 
 - [Satsuki](https://bowlroll.net/user/290)
   - [ANM1](https://bowlroll.net/file/3777)
