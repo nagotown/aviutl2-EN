@@ -58,10 +58,14 @@ For that, you'll also need to download a plugin.
 
 #### Supported Scripts
 
+- [azurite](https://github.com/azurite581)
+  - [ColorHalftone](https://github.com/azurite581/AviUtl2-ColorHalftone)
+  - [GradientPlus](https://github.com/azurite581/AviUtl2-GradientPlus)
 - [Satsuki](https://bowlroll.net/user/290)
   - [ANM1](https://bowlroll.net/file/3777)
   - [ANM_ssd](https://bowlroll.net/file/3777)
 - [sigma_axis](https://github.com/sigma-axis)
+  - [AutoClipping_S](https://github.com/sigma-axis/aviutl2_script_AutoClipping_S)
   - [GroundShadow2_S](https://github.com/sigma-axis/aviutl2_script_GroundShadow2_S)
   - [PenroseTile_S](https://github.com/sigma-axis/aviutl2_script_PenroseTile_S)
   - [PageRoll_S](https://github.com/sigma-axis/aviutl2_script_PageRoll_S)
