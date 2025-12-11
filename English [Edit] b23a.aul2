@@ -457,7 +457,7 @@ PEDファイル=PED File
 テキスト言語=Text Language
 キャッシュ=Cache
 透かし=Watermark
-詳細な統計=Detailed Stats
+詳細統計=Detailed Stats
 ; Life
 ライフ=LIFE
 過剰なライフバー=Overflow LIFE Bar
