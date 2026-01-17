@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository has been superseded by [aviutl2_community_translation](https://github.com/aviutl2/aviutl2_community_translation). Please use or contributed to it instead!
+
 # aviutl2-EN
 
 Edit of the English translation of AviUtl2 for better readability &amp; clarity
